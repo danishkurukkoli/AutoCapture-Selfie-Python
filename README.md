@@ -17,5 +17,12 @@ This Python project allows you to automatically capture selfies using a webcam o
 Run the following command to clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/autocapture-selfie-python.git
+git clone https://github.com/danishkurukkoli/autocapture-selfie-python.git
 cd autocapture-selfie-python
+
+
+### 2. Install dependencies
+Make sure you have Python installed. Then, install the required packages:
+
+```bash
+pip install opencv-python
