@@ -1,8 +1,21 @@
-# AutoCapture-Selfie-Python
-This project leverages Python and OpenCV to automatically capture selfies when a face is detected in the frame. The system uses real-time facial recognition through the webcam, identifying when a person is in focus and ready to take a picture. Once a clear face is detected, the program triggers the camera to capture the image without any manual intervention. Ideal for hands-free photo capturing, the project can be expanded with features like smile detection, pose analysis, or timed intervals for more sophisticated selfie automation.
+# AutoCapture Selfie using Python
 
-# Key Features:
+This Python project allows you to automatically capture selfies using a webcam or mobile camera connected via **DroidCam**. It's a simple, fun way to test OpenCV and Python capabilities for image capturing.
 
-Face detection using OpenCV.
-Automatic selfie capture.
-Real-time webcam integration.
+![AutoCapture Selfie](captured_image.jpg)
+
+## Features
+
+- Automatically captures selfies
+- Supports webcam and mobile cameras via DroidCam
+- Simple code setup with customizable selfie conditions
+
+## Installation
+
+### 1. Clone the repository
+
+Run the following command to clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/autocapture-selfie-python.git
+cd autocapture-selfie-python
